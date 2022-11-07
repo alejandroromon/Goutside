@@ -1,0 +1,20 @@
+.my-dropdown::after {
+  content: none;
+}
+
+.sidebar-size {
+  min-height: 87vh;
+}
+
+.sidebar-bg {
+  background-color: var(--color-dark-blue);
+}
+
+.sidebar-text {
+  color: var(--color-light-blue);
+}
+
+.sidebar-text:hover {
+  background-color: var(--color-light-blue);
+  color: var(--color-dark-grey);
+}

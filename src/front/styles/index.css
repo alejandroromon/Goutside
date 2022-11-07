@@ -1,0 +1,76 @@
+/* -------------------- VARAIABLES ------------------- */
+
+:root {
+  --color-dark-grey: #2c3333;
+  --color-dark-blue: #395b64;
+  --color-light-blue: #a5c9ca;
+  --color-light: #e7f6f2;
+  --color-red: #ff4c29;
+  --color-red-hover: #ff1c29;
+  --color-sucessfull: #5fd6b6;
+  --color-light-card: #d7eeef;
+}
+
+/* -------------------- GENERALES ------------------- */
+
+* {
+  font-family: "Montserrat", sans-serif;
+}
+
+body {
+  background-color: var(--color-dark-grey);
+}
+
+h1,
+h2,
+h3,
+p {
+  color: var(--color-light);
+}
+
+h1 {
+  font-weight: 700;
+}
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+/* -------------------- BOTONES - LINKS COLORS ------------------- */
+
+.btn-validacion {
+  color: var(--color-light);
+  background-color: var(--color-dark-blue);
+}
+
+.btn-validacion:hover {
+  background-color: var(--color-light-blue);
+  color: var(--color-dark-grey);
+}
+
+.btn-cancelar {
+  background-color: var(--color-red);
+  color: var(--color-dark-grey);
+}
+
+.btn-cancelar:hover {
+  background-color: var(--color-red-hover);
+  color: var(--color-dark-blue);
+}
+
+.btn-sucessfull {
+  background-color: var(--color-sucessfull);
+  color: var(--color-dark-grey);
+}
+
+.btn-sucessfull:hover {
+  background-color: var(--color-light-blue);
+  color: var(--color-dark-blue);
+}
+
+.color-link {
+  color: var(--color-sucessfull);
+}
+.color-link:hover {
+  color: var(--color-light-blue);
+}
